@@ -1,0 +1,10 @@
+[doc]
+name = 'vscode-dev-container-tectonic-template'
+bundle = 'https://data1.fullyjustified.net/tlextras-2020.0r0.tar'
+
+[[output]]
+name = 'default'
+type = 'pdf'
+shell_escape = true
+preamble = ''
+postamble = ''

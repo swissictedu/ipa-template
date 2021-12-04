@@ -1,0 +1,30 @@
+name: 'Continuous delivery'
+
+on: 
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - uses: actions/cache@v2
+        name: Setup Tectonic cache
+        with:
+          path: ~/.cache/Tectonic
+          key: ${{ runner.os }}-tectonic-${{ hashFiles('**/*.tex') }}
+          restore-keys: |
+           ${{ runner.os }}-tectonic-
+      - uses: wtfjoke/setup-tectonic@v1
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          biber-version: "latest"
+      - name: Run Tectonic and Biber
+        run: tectonic -X build
+      - name: Upload pdf
+        uses: actions/upload-artifact@v2
+        with:
+          name: Document
+          path: build/default/default.pdf

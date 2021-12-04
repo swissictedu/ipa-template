@@ -1,0 +1,23 @@
+{
+  "latex-workshop.latex.outDir": "%TMPDIR%",
+  "latex-workshop.latex.recipe.default": "tectonic",
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "tectonic",
+      "tools": [
+        "tectonic"
+      ]
+    }
+  ],
+  "latex-workshop.latex.tools": [
+    {
+      "name": "tectonic",
+      "command": "tectonic",
+      "args": [
+        "-X",
+        "build"
+      ],
+      "env": {}
+    }
+  ]
+}
