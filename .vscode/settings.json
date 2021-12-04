@@ -1,4 +1,5 @@
 {
+  "ltex.language": "de-CH",
   "latex-workshop.latex.outDir": "%TMPDIR%",
   "latex-workshop.latex.recipe.default": "tectonic",
   "latex-workshop.latex.recipes": [
