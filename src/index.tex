@@ -2,17 +2,55 @@
 % define document class
 \documentclass{scrreprt}
 
+% set variables
+\newcommand{\varAuthor}{Max Muster}
+\newcommand{\varTitle}{Meine IPA}
+\newcommand{\varVersion}{1.0}
+
 % apply ipa package
 \usepackage{../lib/ipa}
+
+\lofoot[\today]{\today}
+\cfoot[\varAuthor]{\varAuthor}
+\rofoot[Seite \pagemark{} von \pageref{LastPage}]
 
 % create document
 \begin{document}
 
-  \part{Obligatorischer Teil}
+  % set page numbering
+  \pagenumbering{roman}
+
+  % set page style
+  \pagestyle{scrheadings}
+
+  % include title page
+  \thispagestyle{empty}
+  
+  \input{pages/title}
+
+  % generate the table of contents
+  \tableofcontents
+
+  % finish page
+  \clearpage
+
+  % use the arabic numbering system
+  \pagenumbering{arabic}
+
+  % reset page counter
+  \setcounter{page}{1}
+
+  % create a phantom toc entry for "Umfeld und Ablauf"
+  \clearpage\phantomsection\addcontentsline{toc}{part}{Umfeld und Ablauf}
 
   \input{chapters/first}
 
+  % create a phantom toc entry for "Projekt"
+  \clearpage\phantomsection\addcontentsline{toc}{part}{Projekt}
 
-  \part{Teil 2:}
+  \input{chapters/inform}
+
+  % defines the beginning of the appendix
+  \appendix
 
 \end{document}

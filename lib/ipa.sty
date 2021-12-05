@@ -1,8 +1,62 @@
 % define packages
 
-\usepackage{scrdate}                              % date helper
-\usepackage{scrtime}                              % time helper
-\usepackage[utf8]{inputenc}                       % utf8 input encoding
-\usepackage[T1]{fontenc}                          % t1 font encoding
-\usepackage[ngerman]{babel}                       % german document language
-\usepackage[hyphens]{url}                         % break hyper links
+\usepackage{scrdate} % date helper
+\usepackage{scrtime} % time helper
+\usepackage{scrlayer-scrpage} % koma script helper
+\usepackage[utf8]{inputenc} % utf8 input encoding
+\usepackage[T1]{fontenc} % t1 font encoding
+\usepackage[ngerman]{babel} % german document language
+\usepackage[hyphens]{url} % break hyper links
+\usepackage[nopostdot,acronym,translate=babel]{glossaries} % glossaries
+\usepackage[style=swiss]{csquotes} % helps to style quotes
+\usepackage{pdflscape} % landscape mode
+\usepackage{color} % implements colors
+\usepackage{xcolor} % implements modern colors
+\usepackage{colortbl} % implements colors in tables
+\usepackage{hyperref} % internal, external hyper links and pdf options
+\usepackage{lmodern} % use sans serif font lmodern
+\usepackage{geometry} % helps to manage page geometry
+\usepackage{lastpage} % determine last page
+
+% configure document
+\KOMAoptions{paper=A4, parskip=half, twoside=false, fontsize=11pt, numbers=noenddot}
+
+% define margins
+\geometry{top=3cm, right=2.5cm, bottom=2.5cm, left=3cm, foot=1.4cm, head=2cm, headsep=1.3cm}
+
+% style header and footer
+\clearpairofpagestyles
+\rofoot{\pagemark}
+
+
+% set default fonts
+\renewcommand*\rmdefault{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+
+% define colors
+\definecolor{LighterGrey}{HTML}{EEEEEE}
+\definecolor{LightGrey}{HTML}{DDDDDD}
+\definecolor{LineLightGrey}{HTML}{CCCCCC}
+\definecolor{TextLightGrey}{HTML}{999999}
+\definecolor{HyperLink}{HTML}{a82f2f}
+\definecolor{PlotColorOne}{HTML}{216778}
+\definecolor{PlotColorTwo}{HTML}{3B7821}
+\definecolor{PlotColorThree}{HTML}{782167}
+
+% configure pdf
+\hypersetup{
+  pdfpagemode=UseOutlines,
+  pdfmenubar=true,
+  pdftoolbar=true,
+  pdfwindowui=true,
+  pdflang=de,
+  pdfdisplaydoctitle=true,
+  breaklinks=true,
+  colorlinks=true,
+  linkcolor=HyperLink,
+  citecolor=HyperLink,
+  filecolor=HyperLink,
+  menucolor=HyperLink,
+  urlcolor=HyperLink,
+  bookmarksnumbered=true
+}
