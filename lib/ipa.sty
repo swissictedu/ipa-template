@@ -17,6 +17,7 @@
 \usepackage{lmodern} % use sans serif font lmodern
 \usepackage{geometry} % helps to manage page geometry
 \usepackage{lastpage} % determine last page
+\usepackage{enumitem} % better list implementation
 
 % configure document
 \KOMAoptions{paper=A4, parskip=half, twoside=false, fontsize=11pt, numbers=noenddot}
@@ -26,8 +27,24 @@
 
 % style header and footer
 \clearpairofpagestyles
-\rofoot{\pagemark}
 
+% style headings
+\RedeclareSectionCommand[
+    afterindent=false,
+    beforeskip=-3mm,
+    tocnumwidth=3em,
+    afterskip=5mm]{chapter}
+\RedeclareSectionCommand[
+    beforeskip=-1\baselineskip,
+    tocindent=3em,
+    tocnumwidth=4em,
+    afterskip=3mm]{section}
+\RedeclareSectionCommand[
+    tocnumwidth=4em,
+    tocindent=7em]{subsection}
+
+% style lists
+\setlist[description]{style=nextline}
 
 % set default fonts
 \renewcommand*\rmdefault{lmodern}
