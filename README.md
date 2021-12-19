@@ -8,7 +8,7 @@ Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen prak
 
 ## Kriteriennachweis
 
-Dieser Abschnitt bezieht sich auf den [Standardkritierenkatalog vom QV 2022](https://pk19.ch/wp-content/uploads/2021/11/Kriterienkatalog-Standardkriterien_2022.pdf) und dessen [Leitfaden](https://pk19.ch/wp-content/uploads/2021/11/QV-Leitfaden_2022.pdf). Unterhalb wird ein Bezug zwischen den Kriterien und dieser Vorlage hergestellt.
+Dieser Abschnitt bezieht sich auf den [Standardkritierenkatalog](https://pk19.ch/wp-content/uploads/2021/11/Kriterienkatalog-Standardkriterien_2022.pdf) und dessen [Leitfaden](https://pk19.ch/wp-content/uploads/2021/11/QV-Leitfaden_2022.pdf). Unterhalb wird ein Bezug zwischen den Kriterien und dieser Vorlage hergestellt.
 
 ### Teil A
 
@@ -42,3 +42,9 @@ Dieser Abschnitt bezieht sich auf den [Standardkritierenkatalog vom QV 2022](htt
 | B8: Darstellung |   |   |
 | B9: Grafiken, Bilder, Diagramme und Tabellen |   |   |
 | B10: Durchführung und Auswertung der Tests |   |   |
+
+
+## Referenzen
+
+[1]: https://pk19.ch/wp-content/uploads/2021/11/Kriterienkatalog-Standardkriterien_2022.pdf
+[2]: https://pk19.ch/wp-content/uploads/2021/11/QV-Leitfaden_2022.pdf

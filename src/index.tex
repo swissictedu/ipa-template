@@ -13,7 +13,7 @@
 
 \lohead[\varTitle]{\varTitle}
 \lofoot[\today]{\today}
-\cfoot[\varAuthor]{\varAuthor}
+\cfoot[\varAuthor\ / \varCompany]{\varAuthor\ / \varCompany}
 \rofoot[Seite \pagemark{} von \pageref{LastPage}]
 
 % create document
@@ -48,14 +48,28 @@
   % create a phantom toc entry for "Umfeld und Ablauf"
   \clearpage\phantomsection\addcontentsline{toc}{part}{Umfeld und Ablauf}
 
-  \input{chapters/first}
+  \input{chapters/task}
+  \input{chapters/declaration}
+  \input{chapters/organisation}
+  \input{chapters/timeplan}
+  \input{chapters/journal}
 
   % create a phantom toc entry for "Projekt"
   \clearpage\phantomsection\addcontentsline{toc}{part}{Projekt}
 
   \input{chapters/inform}
+  \input{chapters/plan}
+  \input{chapters/decide}
+  \input{chapters/implement}
+  \input{chapters/check}
+  \input{chapters/evaluate}
 
   % defines the beginning of the appendix
   \appendix
+
+  % create a phantom toc entry for "Projekt"
+  \clearpage\phantomsection\addcontentsline{toc}{part}{Anhang}
+
+  \input{appendix/source}
 
 \end{document}
