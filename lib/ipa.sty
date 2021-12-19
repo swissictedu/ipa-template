@@ -18,9 +18,12 @@
 \usepackage{geometry} % helps to manage page geometry
 \usepackage{lastpage} % determine last page
 \usepackage{enumitem} % better list implementation
+\usepackage{wallpaper} % background images for pages
 
 % configure document
 \KOMAoptions{paper=A4, parskip=half, twoside=false, fontsize=11pt, numbers=noenddot}
+\setkomafont{pagehead}{\normalfont\normalcolor\textbf}
+\setkomafont{pagefoot}{\normalfont\footnotesize}
 
 % define margins
 \geometry{top=3cm, right=2.5cm, bottom=2.5cm, left=3cm, foot=1.4cm, head=2cm, headsep=1.3cm}
