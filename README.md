@@ -37,7 +37,7 @@ Der Status wird durch folgende Symbole definiert:
 ### Teil A
  - [A1: Projektmanagement und Planung](#a1)
  - [A2: Wissensbeschaffung](#a2)
- - A3: Zeitplan
+ - [A3: Zeitplan](#a3)
  - A4: Konzeptionelle Umsetzung
  - A5: Projektumfeld: Systemgrenzen / Schnittstellen zur Aussenwelt
  - A6: Testkonzept
@@ -67,6 +67,17 @@ Der Status wird durch folgende Symbole definiert:
 | A2.2a | "Wählte die Informationsquellen aufgabenbezogen aus;" | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
 | A2.3a | "Hat aus den gewählten Informationsquellen die relevanten Informationen identifiziert und genutzt (Transferleistung);" | | | ⏳ |
 | A2.4a | "Die referenzierten Quellen sind existent und für Projektinvolvierte rekonstruierbar." | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
+
+#### <span id="a3">A3</span>: Zeitplan
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A3.1a | "Es wurde eine absolute Zeitachse definiert (Datum)." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | ⏳ |
+| A3.2a | "Die Zeitachse hat eine vernünftige Auflösung (1, 2- oder 4-Stundenblöcke)." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | ⏳ |
+| A3.3a | "Zweckmässige Tätigkeiten decken die ganze Arbeit ab." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | 🧑‍🎓 |
+| A3.4a | "Die Reihenfolge der Tätigkeiten ist sinnvoll." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | 🧑‍🎓 |
+| A3.5a | "Die Zeitaufwände für die Tätigkeiten wurden realistisch geplant." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | 🧑‍🎓 |
+| A3.6a | "Der Soll/Ist-Vergleich ist transparent und korrekt." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | 🧑‍🎓 |
+
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
