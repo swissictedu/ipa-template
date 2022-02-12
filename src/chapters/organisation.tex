@@ -1,2 +1,30 @@
 % [1]: Kriterium B6
 \chapter{Projektaufbauorganisation}
+asd
+\begin{figure}[H]
+  \begin{multicols}{2}
+    \begin{forest}
+      for tree={draw,grow'=0,folder,align=left}
+      [\textbf{\varCompany}
+      [...]
+      [\textbf{\varCompanyDepartment}
+        [(BB) \\ \varVocationalTrainer]
+        [(VF) \\ \varResponsibleSpecialist]
+        [(K) \\ \varCandidate]
+      ]
+      ]
+    \end{forest}
+
+    \begin{forest}
+      for tree={draw,grow'=0,folder,align=left}
+      [\textbf{\varExaminationBoard}
+      [\textbf{\varExaminationBoardDepartment}
+        [(HEX) \\ \varPrimaryExpert]
+        [(NEX) \\ \varSecondaryExpert]
+      ]
+      ]
+    \end{forest}
+  \end{multicols}
+  \caption[\enquote{Organigram der am Projekt teilnehmenden Personen} visualisiert mit TikZ Forest]{Organigram der am Projekt teilnehmenden Personen}
+  \label{fig:organigram}
+\end{figure}
