@@ -3,17 +3,22 @@
 \documentclass{scrreprt}
 
 % set variables
-\newcommand{\varAuthor}{Max Muster}
-\newcommand{\varCompany}{Beispiel AG}
+\newcommand{\varCandidate}{Max Muster} % Kandidat/in
+\newcommand{\varResponsibleSpecialist}{Franziska Müller} % verantwortliche Fachkraft
+\newcommand{\varVocationalTrainer}{Thea Meier} % Berufsbildner/in
+\newcommand{\varPrimaryExpert}{Franz Krebs} % Hauptexperte
+\newcommand{\varSecondaryExpert}{Adrian Kuster} % Nebenexperte
+\newcommand{\varAuthor}{\varCandidate}
+\newcommand{\varCompany}{Beispiel AG} % Firmenname
 \newcommand{\varTitle}{Meine IPA}
-\newcommand{\varVersion}{1.0}
+\newcommand{\varVersion}{0.1} % Versionsnummer: Pro IPA-Tag um 0.1 erhöhen
 
 % apply ipa package
 \usepackage{../lib/ipa}
 
 \lohead[\varTitle]{\varTitle}
 \lofoot[\today]{\today}
-\cfoot[\varAuthor\ / \varCompany]{\varAuthor\ / \varCompany}
+\cfoot[\varAuthor\ / \varCompany\\Version \varVersion]{\varAuthor\ / \varCompany\\Version 1}
 \rofoot[Seite \pagemark{} von \pageref{LastPage}]
 
 % create document
