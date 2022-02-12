@@ -16,7 +16,8 @@
   "extensions": [
     "james-yu.latex-workshop",
     "valentjn.vscode-ltex",
-    "be5invis.toml"
+    "be5invis.toml",
+    "yzhang.markdown-all-in-one"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
