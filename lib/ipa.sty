@@ -1,4 +1,4 @@
-% define packages
+% define dependencies
 
 \usepackage{scrdate} % date helper
 \usepackage{scrtime} % time helper
@@ -19,8 +19,11 @@
 \usepackage{lastpage} % determine last page
 \usepackage{enumitem} % better list implementation
 \usepackage{wallpaper} % background images for pages
-
 \usepackage{lipsum} % blind text
+\usepackage{tikz} % drawing
+
+% define tikz dependencies
+\usetikzlibrary{trees} % drawing nodes hierarchically
 
 % configure document
 \KOMAoptions{paper=A4, parskip=half, twoside=false, fontsize=11pt, numbers=noenddot}
@@ -56,11 +59,12 @@
 \renewcommand*\familydefault{\sfdefault}
 
 % define colors
+\definecolor{PrimaryColor}{HTML}{0076BD}
 \definecolor{LighterGrey}{HTML}{EEEEEE}
 \definecolor{LightGrey}{HTML}{DDDDDD}
 \definecolor{LineLightGrey}{HTML}{CCCCCC}
 \definecolor{TextLightGrey}{HTML}{999999}
-\definecolor{HyperLink}{HTML}{a82f2f}
+\definecolor{HyperLink}{HTML}{0076BD}
 \definecolor{PlotColorOne}{HTML}{216778}
 \definecolor{PlotColorTwo}{HTML}{3B7821}
 \definecolor{PlotColorThree}{HTML}{782167}
