@@ -36,7 +36,7 @@ Der Status wird durch folgende Symbole definiert:
 
 ### Teil A
  - [A1: Projektmanagement und Planung](#a1)
- - A2: Wissensbeschaffung
+ - [A2: Wissensbeschaffung](#a2)
  - A3: Zeitplan
  - A4: Konzeptionelle Umsetzung
  - A5: Projektumfeld: Systemgrenzen / Schnittstellen zur Aussenwelt
@@ -58,6 +58,15 @@ Der Status wird durch folgende Symbole definiert:
 | A1.2a | "Die gewählte Projektmanagement-Methode wurde in der praktischen Arbeit korrekt angewandt;" | | Dies lässt sich oftmals gut im Zeitplan erkennen, indem geprüft wird, ob die Aufgaben den passenden Phasen zugeordnet sind. | 🧑‍🎓 |
 | A1.3a | "Die korrekte Anwendung der Projektmanagement-Methode ist im IPA-Bericht ersichtlich;" | [`src/index.tex`](src/index.tex) | Dies lässt sich gut am Inhaltsverzeichnis ablesen. | ✔️ |
 | A1.4a | "Der Auftrag wurde ausgehend von der Aufgabenstellung weiter analysiert und verfeinert." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+
+#### <span id="a2">A2</span>: Wissensbeschaffung
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A2.1a | "Der Nachweis der Wissensbeschaffung ist durch Arbeitsjournal, Projektbericht oder Protokolle zu Fachgesprächen (HE, VF) dokumentiert;" | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ⏳ |
+| A2.2a | "Wählte die Informationsquellen aufgabenbezogen aus;" | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
+| A2.3a | "Hat aus den gewählten Informationsquellen die relevanten Informationen identifiziert und genutzt (Transferleistung);" | | | ⏳ |
+| A2.4a | "Die referenzierten Quellen sind existent und für Projektinvolvierte rekonstruierbar." | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
