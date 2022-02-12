@@ -38,7 +38,7 @@ Der Status wird durch folgende Symbole definiert:
  - [A1: Projektmanagement und Planung](#a1)
  - [A2: Wissensbeschaffung](#a2)
  - [A3: Zeitplan](#a3)
- - A4: Konzeptionelle Umsetzung
+ - [A4: Konzeptionelle Umsetzung](#a4)
  - A5: Projektumfeld: Systemgrenzen / Schnittstellen zur Aussenwelt
  - A6: Testkonzept
  - A7: Leistungsfähigkeit
@@ -69,6 +69,7 @@ Der Status wird durch folgende Symbole definiert:
 | A2.4a | "Die referenzierten Quellen sind existent und für Projektinvolvierte rekonstruierbar." | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
 
 #### <span id="a3">A3</span>: Zeitplan
+
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
 | A3.1a | "Es wurde eine absolute Zeitachse definiert (Datum)." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | ⏳ |
@@ -78,6 +79,14 @@ Der Status wird durch folgende Symbole definiert:
 | A3.5a | "Die Zeitaufwände für die Tätigkeiten wurden realistisch geplant." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | 🧑‍🎓 |
 | A3.6a | "Der Soll/Ist-Vergleich ist transparent und korrekt." | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | 🧑‍🎓 |
 
+#### <span id="a4">A4</span>: Konzeptionelle Umsetzung
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A4.1a | "Es wurden Konzepte oder Modelle eingesetzt, um die Aufgabenstellung vereinfacht darzustellen." | [`src/chapters/inform.tex`](src/chapters/inform.tex) | | 🧑‍🎓 |
+| A4.2a | "Es wurden Konzepte oder Modelle eingesetzt, um die Lösung vereinfacht darzustellen." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | 🧑‍🎓 |
+| A4.3a | "Teilsysteme sowie deren Abhängigkeiten sind identifiziert und dokumentiert." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | 🧑‍🎓 |
+| A4.4a | "Die Abbildung des Gesamtsystems orientiert sich an den ersten drei Punkten." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | 🧑‍🎓 |
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
