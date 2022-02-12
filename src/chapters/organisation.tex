@@ -1,26 +1,34 @@
-% [1]: Kriterium B6
+% see B6.2a
 \chapter{Projektaufbauorganisation}
+
+% Diesen Abschnitt anpassen.
+Das Projekt \placeholder\ wird in der Abteiltung \enquote{\varCompanyDepartment} umgesetzt. Projektleiter ist \placeholder\ und für die IPA auch die verantwortliche Fachkraft. Für die fachliche Umsetzung des hier beschriebenen Projekts ist ausschliesslich die Zusammenarbeit zwischen \placeholder\ und dem Kandidaten notwendig.
+
+Im Unterschied zur üblichen Arbeit im Betrieb, werden zwei Experten die Arbeits des Kandidaten Begleiten und Bewerten. Die Projektaufbauorganisation ist in \ref{fig:organigram} visualisiert.
+
 \begin{figure}[H]
   \begin{multicols}{2}
     \begin{forest}
       for tree={draw,grow'=0,folder,align=left}
       [\textbf{\varCompany}
-      [...]
-      [\textbf{\varCompanyDepartment}
-        [(BB) \\ \varVocationalTrainer]
-        [(VF) \\ \varResponsibleSpecialist]
-        [(K) \\ \varCandidate]
-      ]
+        [\textbf{HR}
+          [(BB) \\ \varVocationalTrainer]
+        ]
+        [...]
+        [\textbf{\varCompanyDepartment}
+          [(VF) \\ \varResponsibleSpecialist]
+          [(K) \\ \varCandidate]
+        ]
       ]
     \end{forest}
 
     \begin{forest}
       for tree={draw,grow'=0,folder,align=left}
       [\textbf{\varExaminationBoard}
-      [\textbf{\varExaminationBoardDepartment}
-        [(HEX) \\ \varPrimaryExpert]
-        [(NEX) \\ \varSecondaryExpert]
-      ]
+        [\textbf{\varExaminationBoardDepartment}
+          [(HEX) \\ \varPrimaryExpert]
+          [(NEX) \\ \varSecondaryExpert]
+        ]
       ]
     \end{forest}
   \end{multicols}

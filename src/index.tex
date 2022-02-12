@@ -21,6 +21,7 @@
 
 \lohead[\varTitle]{\varTitle}
 \lofoot[\today]{\today}
+% see B6.5a
 \cfoot[\varAuthor\ / \varCompany\\Version \varVersion]{\varAuthor\ / \varCompany\\Version 1}
 \rofoot[Seite \pagemark{} von \pageref{LastPage}]
 
@@ -47,6 +48,7 @@
   \newpage
   \TileWallPaper{\paperwidth}{\paperheight}{images/background.pdf}
 
+  % see B6.3a
   % generate the table of contents
   \tableofcontents
 
@@ -59,6 +61,7 @@
   % reset page counter
   \setcounter{page}{1}
 
+  % see B6.1a
   % create a phantom toc entry for "Umfeld und Ablauf"
   \clearpage\phantomsection\addcontentsline{toc}{part}{Umfeld und Ablauf}
 
@@ -68,6 +71,7 @@
   \input{chapters/timeplan}
   \input{chapters/journal}
 
+  % see B6.1a
   % create a phantom toc entry for "Projekt"
   \clearpage\phantomsection\addcontentsline{toc}{part}{Projekt}
 
@@ -78,6 +82,7 @@
   \input{chapters/check}
   \input{chapters/evaluate}
 
+  % see B6.6a
   % create a phantom toc entry for the index/glossary table
   \clearpage\phantomsection\addcontentsline{toc}{part}{Glossar}
 
