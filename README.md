@@ -44,8 +44,8 @@ Der Status wird durch folgende Symbole definiert:
  - [A6: Testkonzept](#a6)
  - [A7: Leistungsfähigkeit](#a7)
  - [A8: Selbständiges Arbeiten](#a8)
- - A9: Fachkenntnisse und Anwendungskompetenz
- - A10: Anwendung der Fachsprache
+ - [A9: Fachkenntnisse und Anwendungskompetenz](#a9)
+ - [A10: Anwendung der Fachsprache](#a10)
  - A11: Arbeits- und Fachmethodik
  - A12: Organisation der Arbeitsergebnisse
  - A13: IPA-Erfüllungsgrad
@@ -120,6 +120,7 @@ Der Status wird durch folgende Symbole definiert:
 | A7.5 | "Der Kandidat dachte über die Aufgabenstellung hinaus und ergänzte nach Möglichkeit eigenständig fehlende Elemente." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | 🧑‍🎓 |
 
 #### <span id="a8">A8</span>: Selbständiges Arbeiten
+
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
 | A8.1 | "Kann Wesentliches von Unwesentlichem trennen und Prioritäten setzen." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ❌ |
@@ -127,6 +128,20 @@ Der Status wird durch folgende Symbole definiert:
 | A8.3 | "Kann die Arbeit gut einteilen und benötigt keine ungerechtfertigte Unterstützung durch andere Fachleute." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | 🧑‍🎓 |
 | A8.4 | "Kann seine Arbeit selbständig organisieren und die gesetzten Ziele werden erreicht auch wenn Probleme auftreten." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | 🧑‍🎓 |
 
+#### <span id="a9">A9</span>: Fachkenntnisse und Anwendungskompetenz
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A9 | "Der Kandidat hat über die ganze Arbeit gezeigt, dass er die technischen und fachlichen Grundlagen für sein Handeln kennt und situationsgerecht anwendet. Der Kandidat kann die für seine Arbeit benötigten Fähigkeiten der eingesetzten Produkte sicher anwenden und nutzt sie zielgerichtet, routiniert und fehlerfrei." | | | ❌ |
+
+#### <span id="a10">A10</span>: Anwendung der Fachsprache
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A10.1 | "Zur Erläuterung spezifischer Sachverhalte setzt der Kandidat die Fachbegriffe konsequent ein." | [`src/chapters/implement.tex`](src/chapters/implement.tex) | | 🧑‍🎓 |
+| A10.2 | "Dabei werden die richtigen Fachbegriffe präzise eingesetzt." | [`src/glossaries.tex`](src/glossaries.tex) | | 🧑‍🎓 |
+| A10.3 | "Die Fachbegriffe werden an den benötigten Stellen eingesetzt und können bei Nachfrage durch den Kandidaten erläutert werden." | | | ❌ |
+| A10.4 | "Die Erklärung zu den Fachbegriffen ist fachlich korrekt." | [`src/glossaries.tex`](src/glossaries.tex) | | 🧑‍🎓 |
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
