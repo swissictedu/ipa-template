@@ -100,6 +100,15 @@ Der Status wird durch folgende Symbole definiert:
 
 #### <span id="a6">A6</span>: Testkonzept
 
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A6.1a | "Das Testkonzept beschreibt das zu testende System" | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+| A6.1b | "Das Testkonzept beschreibt [.. die]  Umgebung [des Systems]." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+| A6.2 | "Das Testkonzept beschreibt die relevanten Testfälle inkl. der zu erwartenden Ergebnisse." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+| A6.3 | "Das Testkonzept begründet nachvollziehbar, was bewusst nicht getestet wird." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+| A6.4 | "Das Testkonzept beschreibt die relevanten Testmittel (Hardware, Netzwerk etc.)" | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+| A6.5 | "Das Testkonzept beschreibt die verwendete(n) Testmethode(n)." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
  - B2: Führung des Arbeitsjournals
