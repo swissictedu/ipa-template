@@ -43,7 +43,7 @@ Der Status wird durch folgende Symbole definiert:
  - [A5: Projektumfeld: Systemgrenzen / Schnittstellen zur Aussenwelt](#a5)
  - [A6: Testkonzept](#a6)
  - [A7: Leistungsfähigkeit](#a7)
- - A8: Selbständiges Arbeiten
+ - [A8: Selbständiges Arbeiten](#a8)
  - A9: Fachkenntnisse und Anwendungskompetenz
  - A10: Anwendung der Fachsprache
  - A11: Arbeits- und Fachmethodik
@@ -118,6 +118,14 @@ Der Status wird durch folgende Symbole definiert:
 | A7.3 | "Der Kandidat arbeitete zielorientiert." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ❌ |
 | A7.4 | "Der Kandidat berücksichtigte die zeitlichen Vorgaben" | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | ❌ |
 | A7.5 | "Der Kandidat dachte über die Aufgabenstellung hinaus und ergänzte nach Möglichkeit eigenständig fehlende Elemente." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | 🧑‍🎓 |
+
+#### <span id="a8">A8</span>: Selbständiges Arbeiten
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A8.1 | "Kann Wesentliches von Unwesentlichem trennen und Prioritäten setzen." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ❌ |
+| A8.2 | "Kommt durch die ihm zur Verfügung stehenden Mittel selbständig zu den benötigten Informationen. Sucht oder zeigt Lösungsvarianten auf." | [`src/chapters/evaluate.tex`](src/chapters/evaluate.tex) | | ⏳ |
+| A8.3 | "Kann die Arbeit gut einteilen und benötigt keine ungerechtfertigte Unterstützung durch andere Fachleute." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | 🧑‍🎓 |
+| A8.4 | "Kann seine Arbeit selbständig organisieren und die gesetzten Ziele werden erreicht auch wenn Probleme auftreten." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | 🧑‍🎓 |
 
 
 ### Teil B
