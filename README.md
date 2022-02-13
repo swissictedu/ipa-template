@@ -32,7 +32,7 @@ Der Status wird durch folgende Symbole definiert:
 | ✔️ | Dieses Kriterium ist in der Vorlage beispielhaft umgesetzt. |
 | ⏳ | Dieses Kriterium wird noch in der Vorlage umgesetzt. |
 | ⚡ | Zu diesem Kriterium gibt es Hinweise und Beispiele, welche noch angepasst werden müssen. |
-| ❌ | Dieses Kriterium kann nicht mit dem IPA-Bericht umgesetzt werden. |
+| ❌ | Dieses Kriterium kann nicht oder nur teilweise mit dem IPA-Bericht umgesetzt werden. |
 | 🧑‍🎓 | Dieses Kriterium muss individuell in der Vorlage geprüft oder umgesetzt werden. |
 
 ### Teil A
@@ -42,7 +42,7 @@ Der Status wird durch folgende Symbole definiert:
  - [A4: Konzeptionelle Umsetzung](#a4)
  - [A5: Projektumfeld: Systemgrenzen / Schnittstellen zur Aussenwelt](#a5)
  - [A6: Testkonzept](#a6)
- - A7: Leistungsfähigkeit
+ - [A7: Leistungsfähigkeit](#a7)
  - A8: Selbständiges Arbeiten
  - A9: Fachkenntnisse und Anwendungskompetenz
  - A10: Anwendung der Fachsprache
@@ -108,6 +108,17 @@ Der Status wird durch folgende Symbole definiert:
 | A6.3 | "Das Testkonzept begründet nachvollziehbar, was bewusst nicht getestet wird." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
 | A6.4 | "Das Testkonzept beschreibt die relevanten Testmittel (Hardware, Netzwerk etc.)" | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
 | A6.5 | "Das Testkonzept beschreibt die verwendete(n) Testmethode(n)." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+
+#### <span id="a7">A7</span>: Leistungsfähigkeit
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A7.1 | "Der Kandidat arbeitete durchwegs engagiert; es gab keine Zeichen von Gleichgültigkeit." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ❌ |
+| A7.2 | "Der Kandidat geriet nicht in Stresssituationen oder konnte mit diesen souverän umgehen." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ❌ |
+| A7.3 | "Der Kandidat arbeitete zielorientiert." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ❌ |
+| A7.4 | "Der Kandidat berücksichtigte die zeitlichen Vorgaben" | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | ❌ |
+| A7.5 | "Der Kandidat dachte über die Aufgabenstellung hinaus und ergänzte nach Möglichkeit eigenständig fehlende Elemente." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | 🧑‍🎓 |
+
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
