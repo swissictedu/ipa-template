@@ -168,7 +168,7 @@ Der Status wird durch folgende Symbole definiert:
 | A13.3 | "Das Potential wurde im Rahmen der vorgegebenen Zeit ausgeschöpft." | | | 🧑‍🎓 |
 
 ### Teil B
- - B1: Kurzfassung des IPA-Berichtes
+ - [B1: Kurzfassung des IPA-Berichtes](#b1)
  - B2: Führung des Arbeitsjournals
  - B3: Reflexionsfähigkeit
  - B4: Gliederung
@@ -178,6 +178,15 @@ Der Status wird durch folgende Symbole definiert:
  - B8: Darstellung
  - B9: Grafiken, Bilder, Diagramme und Tabellen
  - B10: Durchführung und Auswertung der Tests
+
+#### <span id="b1">B1</span>: Kurzfassung des IPA-Berichtes
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B1.1 | "Die Kurzfassung richtet sich an die fachlich kompetenten Leser." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
+| B1.2 | "Die Kurzfassung enthält die Punkte: Kurze Ausgangssituation - Umsetzung - Ergebnis." | [`src/plan.tex`](src/plan.tex) |  | ⏳ |
+| B1.3 | "Die Kurzfassung enthält zu jedem dieser genannten Punkte die wesentlichen Aspekte." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
+| B1.4 | "Die Kurzfassung ist nicht länger als eine A4-Seite Text und enthält keine Grafik." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
 
 #### <span id="b6">B6</span>: Formale Vollständigkeit des IPA-Berichts
 
