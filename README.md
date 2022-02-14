@@ -47,8 +47,8 @@ Der Status wird durch folgende Symbole definiert:
  - [A9: Fachkenntnisse und Anwendungskompetenz](#a9)
  - [A10: Anwendung der Fachsprache](#a10)
  - [A11: Arbeits- und Fachmethodik](#a11)
- - [A12: Organisation der Arbeitsergebnisse](#12)
- - A13: IPA-Erfüllungsgrad
+ - [A12: Organisation der Arbeitsergebnisse](#a12)
+ - [A13: IPA-Erfüllungsgrad](#a13)
 
 #### <span id="a1">A1</span>: Projektmanagement und Planung
 
@@ -149,7 +149,6 @@ Der Status wird durch folgende Symbole definiert:
 | ----- | ----------- | -------- | ----------- | ------ |
 | A11 | "Wählte den Aufgaben entsprechend geeignete Fachmethoden und Arbeitstechniken aus. Diese wurden korrekt angewandt und vollständig umgesetzt." | | Betrifft die gesamte IPA. | 🧑‍🎓 |
 
-
 #### <span id="a12">A12</span>: Arbeits- und Fachmethodik
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
@@ -160,6 +159,13 @@ Der Status wird durch folgende Symbole definiert:
 | A12.4 | "Die Wiederherstellung der gesicherten Arbeitsergebnisse ist sichergestellt." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
 | A12.5 | "Punkte 1-4 sind im IPA-Bericht beschrieben und nachvollziehbar." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
 
+#### <span id="a13">A13</span>: IPA-Erfüllungsgrad
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A13.1 | "Das Resultat entspricht den Anforderungen gemäss Aufgabenstellung." | | | 🧑‍🎓 |
+| A13.2 | "Das Resultat entspricht der Arbeit einer Fachperson." | | | 🧑‍🎓 |
+| A13.3 | "Das Potential wurde im Rahmen der vorgegebenen Zeit ausgeschöpft." | | | 🧑‍🎓 |
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
