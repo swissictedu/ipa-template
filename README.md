@@ -170,7 +170,7 @@ Der Status wird durch folgende Symbole definiert:
 ### Teil B
  - [B1: Kurzfassung des IPA-Berichtes](#b1)
  - [B2: Führung des Arbeitsjournals](#b2)
- - B3: Reflexionsfähigkeit
+ - [B3: Reflexionsfähigkeit](#b3)
  - B4: Gliederung
  - B5: Prägnanz
  - [B6: Formale Vollständigkeit des IPA-Berichts](#b6)
@@ -183,19 +183,28 @@ Der Status wird durch folgende Symbole definiert:
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| B1.1 | "Die Kurzfassung richtet sich an die fachlich kompetenten Leser." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
-| B1.2 | "Die Kurzfassung enthält die Punkte: Kurze Ausgangssituation - Umsetzung - Ergebnis." | [`src/plan.tex`](src/plan.tex) |  | ⏳ |
-| B1.3 | "Die Kurzfassung enthält zu jedem dieser genannten Punkte die wesentlichen Aspekte." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
-| B1.4 | "Die Kurzfassung ist nicht länger als eine A4-Seite Text und enthält keine Grafik." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
+| B1.1 | "Die Kurzfassung richtet sich an die fachlich kompetenten Leser." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | 🧑‍🎓 |
+| B1.2 | "Die Kurzfassung enthält die Punkte: Kurze Ausgangssituation - Umsetzung - Ergebnis." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | ⏳ |
+| B1.3 | "Die Kurzfassung enthält zu jedem dieser genannten Punkte die wesentlichen Aspekte." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | 🧑‍🎓 |
+| B1.4 | "Die Kurzfassung ist nicht länger als eine A4-Seite Text und enthält keine Grafik." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | 🧑‍🎓 |
 
 #### <span id="b2">B2</span>: Führung des Arbeitsjournals
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| B2.1 | "Die Darstellung ist übersichtlich, klar und verständlich." | [`src/journal.tex`](src/journal.tex) |  | ⏳ |
-| B2.2 | "Alle Aktivitäten gemäss Zeitplan sowie Überzeiten und ungeplante Arbeiten sind erwähnt." | [`src/journal.tex`](src/journal.tex) |  | 🧑‍🎓 |
-| B2.3 | "Erfolge und Misserfolge sind erwähnt." | [`src/journal.tex`](src/journal.tex) |  | 🧑‍🎓 |
-| B2.4 | "Alle beanspruchten Hilfestellungen sind erwähnt und begründet." | [`src/journal.tex`](src/journal.tex) |  | 🧑‍🎓 |
+| B2.1 | "Die Darstellung ist übersichtlich, klar und verständlich." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | ⏳ |
+| B2.2 | "Alle Aktivitäten gemäss Zeitplan sowie Überzeiten und ungeplante Arbeiten sind erwähnt." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
+| B2.3 | "Erfolge und Misserfolge sind erwähnt." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
+| B2.4 | "Alle beanspruchten Hilfestellungen sind erwähnt und begründet." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
+
+#### <span id="b3">B3</span>: Reflexionsfähigkeit
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B3.1 | "Hat im Arbeitsjournal seine Vorgehensweise und das Ergebnis kritisch hinterfragt." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
+| B3.2 | "Vergleicht mögliche Lösungs-Varianten oder begründet, weshalb es keine Varianten gibt." | [`src/chapters/decide.tex`](src/chapters/decide.tex) |  | 🧑‍🎓 |
+| B3.3 | "Zieht im Schlusswort nachvollziehbare Schlüsse aus seiner eigenen Reflexion." | [`src/chapters/evaluate.tex`](src/chapters/evaluate.tex) |  | 🧑‍🎓 |
+| B3.4 | "Das Schlusswort enthält eine persönliche Bilanz." | [`src/chapters/evaluate.tex`](src/chapters/evaluate.tex) |  | 🧑‍🎓 |
 
 #### <span id="b6">B6</span>: Formale Vollständigkeit des IPA-Berichts
 
