@@ -169,7 +169,7 @@ Der Status wird durch folgende Symbole definiert:
 
 ### Teil B
  - [B1: Kurzfassung des IPA-Berichtes](#b1)
- - B2: Führung des Arbeitsjournals
+ - [B2: Führung des Arbeitsjournals](#b2)
  - B3: Reflexionsfähigkeit
  - B4: Gliederung
  - B5: Prägnanz
@@ -187,6 +187,15 @@ Der Status wird durch folgende Symbole definiert:
 | B1.2 | "Die Kurzfassung enthält die Punkte: Kurze Ausgangssituation - Umsetzung - Ergebnis." | [`src/plan.tex`](src/plan.tex) |  | ⏳ |
 | B1.3 | "Die Kurzfassung enthält zu jedem dieser genannten Punkte die wesentlichen Aspekte." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
 | B1.4 | "Die Kurzfassung ist nicht länger als eine A4-Seite Text und enthält keine Grafik." | [`src/plan.tex`](src/plan.tex) |  | 🧑‍🎓 |
+
+#### <span id="b2">B2</span>: Führung des Arbeitsjournals
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B2.1 | "Die Darstellung ist übersichtlich, klar und verständlich." | [`src/journal.tex`](src/journal.tex) |  | ⏳ |
+| B2.2 | "Alle Aktivitäten gemäss Zeitplan sowie Überzeiten und ungeplante Arbeiten sind erwähnt." | [`src/journal.tex`](src/journal.tex) |  | 🧑‍🎓 |
+| B2.3 | "Erfolge und Misserfolge sind erwähnt." | [`src/journal.tex`](src/journal.tex) |  | 🧑‍🎓 |
+| B2.4 | "Alle beanspruchten Hilfestellungen sind erwähnt und begründet." | [`src/journal.tex`](src/journal.tex) |  | 🧑‍🎓 |
 
 #### <span id="b6">B6</span>: Formale Vollständigkeit des IPA-Berichts
 
