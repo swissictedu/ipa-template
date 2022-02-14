@@ -46,8 +46,8 @@ Der Status wird durch folgende Symbole definiert:
  - [A8: Selbständiges Arbeiten](#a8)
  - [A9: Fachkenntnisse und Anwendungskompetenz](#a9)
  - [A10: Anwendung der Fachsprache](#a10)
- - A11: Arbeits- und Fachmethodik
- - A12: Organisation der Arbeitsergebnisse
+ - [A11: Arbeits- und Fachmethodik](#a11)
+ - [A12: Organisation der Arbeitsergebnisse](#12)
  - A13: IPA-Erfüllungsgrad
 
 #### <span id="a1">A1</span>: Projektmanagement und Planung
@@ -142,6 +142,24 @@ Der Status wird durch folgende Symbole definiert:
 | A10.2 | "Dabei werden die richtigen Fachbegriffe präzise eingesetzt." | [`src/glossaries.tex`](src/glossaries.tex) | | 🧑‍🎓 |
 | A10.3 | "Die Fachbegriffe werden an den benötigten Stellen eingesetzt und können bei Nachfrage durch den Kandidaten erläutert werden." | | | ❌ |
 | A10.4 | "Die Erklärung zu den Fachbegriffen ist fachlich korrekt." | [`src/glossaries.tex`](src/glossaries.tex) | | 🧑‍🎓 |
+
+#### <span id="a11">A11</span>: Arbeits- und Fachmethodik
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A11 | "Wählte den Aufgaben entsprechend geeignete Fachmethoden und Arbeitstechniken aus. Diese wurden korrekt angewandt und vollständig umgesetzt." | | Betrifft die gesamte IPA. | 🧑‍🎓 |
+
+
+#### <span id="a12">A12</span>: Arbeits- und Fachmethodik
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| A12.1 | "Die Arbeitsergebnisse (schliesst die Dokumente ein) sind ihrem Entwicklungsstand angemessen versioniert." | | Diese Vorlage unterstützt dieses Kriterium, indem das der IPA-Bericht so einfach in eine Quellcodeversionierungssystem integriert werden kann. | 🧑‍🎓 |
+| A12.2 | "Auf die Versionen der Arbeitsergebnisse kann jederzeit zugegriffen werden." | | Diese Vorlage unterstützt dieses Kriterium, indem das der IPA-Bericht so einfach in eine Quellcodeversionierungssystem integriert werden kann. | 🧑‍🎓 |
+| A12.3 | "Es besteht eine tägliche Sicherung der Arbeitsergebnisse." | | Dazu müsste sichergestellt werden, dass die angehäuften Commits jeden Abend in die entfernte Versionskontrolle geschoben werden. | 🧑‍🎓 |
+| A12.4 | "Die Wiederherstellung der gesicherten Arbeitsergebnisse ist sichergestellt." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+| A12.5 | "Punkte 1-4 sind im IPA-Bericht beschrieben und nachvollziehbar." | [`src/chapters/plan.tex`](src/chapters/plan.tex) | | ⏳ |
+
 
 ### Teil B
  - B1: Kurzfassung des IPA-Berichtes
