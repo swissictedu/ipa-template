@@ -177,7 +177,7 @@ Der Status wird durch folgende Symbole definiert:
  - [B7: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik](#b7)
  - [B8: Darstellung](#b8)
  - [B9: Grafiken, Bilder, Diagramme und Tabellen](#b9)
- - B10: Durchführung und Auswertung der Tests
+ - [B10: Durchführung und Auswertung der Tests](#b10)
 
 #### <span id="b1">B1</span>: Kurzfassung des IPA-Berichtes
 
@@ -250,7 +250,7 @@ Der Status wird durch folgende Symbole definiert:
 | ----- | ----------- | -------- | ----------- | ------ |
 | B8.1 | "Die Darstellung enthält eine geeignete Seitennummerierung." | | | ✔️ |
 | B8.2 | "Der Seitenumbruch ist sinnvoll oder behindert den Lesefluss nicht." | | | 🧑‍🎓 |
-| B8.3 | "ede Seite enthält Informationen und nicht nur eine einzelne Textzeile oder Überschrift." | | | 🧑‍🎓 |
+| B8.3 | "Jede Seite enthält Informationen und nicht nur eine einzelne Textzeile oder Überschrift." | | | 🧑‍🎓 |
 | B8.4 | "Die Darstellung ist zweckmässig und sauber." | | | 🧑‍🎓 |
 
 #### <span id="b9">B9</span>: Grafiken, Bilder, Diagramme und Tabellen
@@ -264,6 +264,15 @@ Der Status wird durch folgende Symbole definiert:
 | B9.5 | "Die Darstellungen sind aussagekräftig." | | | 🧑‍🎓 |
 | B9.6 | "Die Darstellungen sind im Text oder in einer Legende erklärt." | | | 🧑‍🎓 |
 | B9.7 | "Die Darstellungen passen zum Kontext." | | | 🧑‍🎓 |
+
+#### <span id="b10">B10</span>: Durchführung und Auswertung der Tests
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B10.1 | "Die Testdurchführung basiert auf dem Testkonzept; dies ist entsprechend dokumentiert (inkl. allfälliger Abweichungen davon)." | [`src/chapters/check.tex`](src/chapters/check.tex) | | 🧑‍🎓 |
+| B10.2 | "Alle Testresultate sind korrekt und übersichtlich dokumentiert." | [`src/chapters/check.tex`](src/chapters/check.tex) | | ⏳ |
+| B10.3 | "Das Testprotokoll beinhaltet Angaben über den Testzeitpunkt, die Testperson sowie allfällige spezifische Informationen." | [`src/chapters/check.tex`](src/chapters/check.tex) | | ⏳ |
+| B10.4 | "Es wird ein aussagekräftiges Fazit zum Testergebnis (pro Testfall) gezogen und es werden allfällige notwendige Massnahmen/Empfehlungen beschrieben" | [`src/chapters/check.tex`](src/chapters/check.tex) | | 🧑‍🎓 |
 
 ## Referenzen
 
