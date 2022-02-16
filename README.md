@@ -276,5 +276,5 @@ Der Status wird durch folgende Symbole definiert:
 
 ## Referenzen
 
-[1]: https://pk19.ch/wp-content/uploads/2021/11/Kriterienkatalog-Standardkriterien_2022.pdf
-[2]: https://pk19.ch/wp-content/uploads/2021/11/QV-Leitfaden_2022.pdf
+<span id="ref-1">[1]</span>: https://pk19.ch/wp-content/uploads/2021/11/Kriterienkatalog-Standardkriterien_2022.pdf \
+<span id="ref-1">[2]</span>: https://pk19.ch/wp-content/uploads/2021/11/QV-Leitfaden_2022.pdf
