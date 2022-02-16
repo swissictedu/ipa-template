@@ -206,6 +206,15 @@ Der Status wird durch folgende Symbole definiert:
 | B3.3 | "Zieht im Schlusswort nachvollziehbare Schlüsse aus seiner eigenen Reflexion." | [`src/chapters/evaluate.tex`](src/chapters/evaluate.tex) |  | 🧑‍🎓 |
 | B3.4 | "Das Schlusswort enthält eine persönliche Bilanz." | [`src/chapters/evaluate.tex`](src/chapters/evaluate.tex) |  | 🧑‍🎓 |
 
+#### <span id="b4">B4</span>: Gliederung
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B4.1 | "Der IPA-Bericht ist in eine zu den Themen und Schwerpunkten passende Kapitelstruktur unterteilt." |  |  | 🧑‍🎓 |
+| B4.2 | "Der IPA-Bericht ist übersichtlich gegliedert und eingesetzte Überschriften sind mit entsprechenden Inhalten gefüllt." |  |  | 🧑‍🎓 |
+| B4.3 | "Die Reihenfolge der Themen im IPA-Bericht ist aufeinander abgestimmt." | [`src/index.tex`](src/index.tex) |  | 🧑‍🎓 |
+| B4.4 | "Die Gestaltung von Überschriften, Texten und Grafiken erleichtert den Lesefluss und behindert ihn nicht." |  |  | ✔️ |
+
 #### <span id="b6">B6</span>: Formale Vollständigkeit des IPA-Berichts
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
