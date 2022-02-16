@@ -176,7 +176,7 @@ Der Status wird durch folgende Symbole definiert:
  - [B6: Formale Vollständigkeit des IPA-Berichts](#b6)
  - [B7: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik](#b7)
  - [B8: Darstellung](#b8)
- - B9: Grafiken, Bilder, Diagramme und Tabellen
+ - [B9: Grafiken, Bilder, Diagramme und Tabellen](#b9)
  - B10: Durchführung und Auswertung der Tests
 
 #### <span id="b1">B1</span>: Kurzfassung des IPA-Berichtes
@@ -253,6 +253,17 @@ Der Status wird durch folgende Symbole definiert:
 | B8.3 | "ede Seite enthält Informationen und nicht nur eine einzelne Textzeile oder Überschrift." | | | 🧑‍🎓 |
 | B8.4 | "Die Darstellung ist zweckmässig und sauber." | | | 🧑‍🎓 |
 
+#### <span id="b9">B9</span>: Grafiken, Bilder, Diagramme und Tabellen
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B9.1 | "Es werden an vernünftigen Stellen Grafiken, Bilder, Diagramme oder Tabellen eingesetzt, um die Inhalte im IPA-Bericht besser darzustellen und den Text verständlicher zu machen." | | | 🧑‍🎓 |
+| B9.2 | "Die Wahl der Darstellungen ist durchgehend geeignet." | | | 🧑‍🎓 |
+| B9.3 | "Die Darstellung ist kontrastreich und optisch gut lesbar (als Referenz dient der Ausdruck auf Format A4)." | | | 🧑‍🎓 |
+| B9.4 | "Die Darstellungen sind inhaltlich verständlich." | | | 🧑‍🎓 |
+| B9.5 | "Die Darstellungen sind aussagekräftig." | | | 🧑‍🎓 |
+| B9.6 | "Die Darstellungen sind im Text oder in einer Legende erklärt." | | | 🧑‍🎓 |
+| B9.7 | "Die Darstellungen passen zum Kontext." | | | 🧑‍🎓 |
 
 ## Referenzen
 
