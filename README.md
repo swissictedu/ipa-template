@@ -171,8 +171,8 @@ Der Status wird durch folgende Symbole definiert:
  - [B1: Kurzfassung des IPA-Berichtes](#b1)
  - [B2: Führung des Arbeitsjournals](#b2)
  - [B3: Reflexionsfähigkeit](#b3)
- - B4: Gliederung
- - B5: Prägnanz
+ - [B4: Gliederung](#b4)
+ - [B5: Prägnanz](#b5)
  - [B6: Formale Vollständigkeit des IPA-Berichts](#b6)
  - B7: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik
  - B8: Darstellung
@@ -214,6 +214,12 @@ Der Status wird durch folgende Symbole definiert:
 | B4.2 | "Der IPA-Bericht ist übersichtlich gegliedert und eingesetzte Überschriften sind mit entsprechenden Inhalten gefüllt." |  |  | 🧑‍🎓 |
 | B4.3 | "Die Reihenfolge der Themen im IPA-Bericht ist aufeinander abgestimmt." | [`src/index.tex`](src/index.tex) |  | 🧑‍🎓 |
 | B4.4 | "Die Gestaltung von Überschriften, Texten und Grafiken erleichtert den Lesefluss und behindert ihn nicht." |  |  | ✔️ |
+
+#### <span id="b5">B5</span>: Prägnanz
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B5 | "Der Text des IPA-Berichtes ist hinsichtlich der Prägnanz bestmöglich gestaltet. Er ist durchgängig oder mit höchstens einer Ausnahme so ausführlich wie für das Verständnis erforderlich und enthält weder Ballast noch unnötige Redundanzen." |  |  | 🧑‍🎓 |
 
 #### <span id="b6">B6</span>: Formale Vollständigkeit des IPA-Berichts
 
