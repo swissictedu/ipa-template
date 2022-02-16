@@ -175,7 +175,7 @@ Der Status wird durch folgende Symbole definiert:
  - [B5: Prägnanz](#b5)
  - [B6: Formale Vollständigkeit des IPA-Berichts](#b6)
  - [B7: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik](#b7)
- - B8: Darstellung
+ - [B8: Darstellung](#b8)
  - B9: Grafiken, Bilder, Diagramme und Tabellen
  - B10: Durchführung und Auswertung der Tests
 
@@ -243,6 +243,16 @@ Der Status wird durch folgende Symbole definiert:
 | B7.1 | "Die Sprache ist durchgehend klar verständlich (Satzbau, Wortstellungen), in einem flüssigen Stil sowie in vollständigen und ausformulierten Sätzen geschrieben." | | | 🧑‍🎓 |
 | B7.2 | "Fachbegriffe werden korrekt und adressatengerecht eingesetzt." | | | 🧑‍🎓 |
 | B7.3 | "Der IPA-Bericht enthält nur wenige Rechtschreib- oder Grammatikfehler." | | | 🧑‍🎓 |
+
+#### <span id="b8">B8</span>: Darstellung
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B8.1 | "Die Darstellung enthält eine geeignete Seitennummerierung." | | | ✔️ |
+| B8.2 | "Der Seitenumbruch ist sinnvoll oder behindert den Lesefluss nicht." | | | 🧑‍🎓 |
+| B8.3 | "ede Seite enthält Informationen und nicht nur eine einzelne Textzeile oder Überschrift." | | | 🧑‍🎓 |
+| B8.4 | "Die Darstellung ist zweckmässig und sauber." | | | 🧑‍🎓 |
+
 
 ## Referenzen
 
