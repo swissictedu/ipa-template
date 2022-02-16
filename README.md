@@ -174,7 +174,7 @@ Der Status wird durch folgende Symbole definiert:
  - [B4: Gliederung](#b4)
  - [B5: Prägnanz](#b5)
  - [B6: Formale Vollständigkeit des IPA-Berichts](#b6)
- - B7: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik
+ - [B7: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik](#b7)
  - B8: Darstellung
  - B9: Grafiken, Bilder, Diagramme und Tabellen
  - B10: Durchführung und Auswertung der Tests
@@ -212,14 +212,14 @@ Der Status wird durch folgende Symbole definiert:
 | ----- | ----------- | -------- | ----------- | ------ |
 | B4.1 | "Der IPA-Bericht ist in eine zu den Themen und Schwerpunkten passende Kapitelstruktur unterteilt." |  |  | 🧑‍🎓 |
 | B4.2 | "Der IPA-Bericht ist übersichtlich gegliedert und eingesetzte Überschriften sind mit entsprechenden Inhalten gefüllt." |  |  | 🧑‍🎓 |
-| B4.3 | "Die Reihenfolge der Themen im IPA-Bericht ist aufeinander abgestimmt." | [`src/index.tex`](src/index.tex) |  | 🧑‍🎓 |
-| B4.4 | "Die Gestaltung von Überschriften, Texten und Grafiken erleichtert den Lesefluss und behindert ihn nicht." |  |  | ✔️ |
+| B4.3 | "Die Reihenfolge der Themen im IPA-Bericht ist aufeinander abgestimmt." | [`src/index.tex`](src/index.tex) | | 🧑‍🎓 |
+| B4.4 | "Die Gestaltung von Überschriften, Texten und Grafiken erleichtert den Lesefluss und behindert ihn nicht." | | | ✔️ |
 
 #### <span id="b5">B5</span>: Prägnanz
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| B5 | "Der Text des IPA-Berichtes ist hinsichtlich der Prägnanz bestmöglich gestaltet. Er ist durchgängig oder mit höchstens einer Ausnahme so ausführlich wie für das Verständnis erforderlich und enthält weder Ballast noch unnötige Redundanzen." |  |  | 🧑‍🎓 |
+| B5 | "Der Text des IPA-Berichtes ist hinsichtlich der Prägnanz bestmöglich gestaltet. Er ist durchgängig oder mit höchstens einer Ausnahme so ausführlich wie für das Verständnis erforderlich und enthält weder Ballast noch unnötige Redundanzen." | | | 🧑‍🎓 |
 
 #### <span id="b6">B6</span>: Formale Vollständigkeit des IPA-Berichts
 
@@ -235,6 +235,14 @@ Der Status wird durch folgende Symbole definiert:
 | B6.4b | "die referenzierten Quellen sind gültig und verlässlich;" | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
 | B6.5 | "..auf allen Seiten (optional Titelblatt) eine Kopf- oder Fusszeile mit dem aktuellen Druckdatum und dem Namen des Kandidaten;" | [`src/index.tex`](src/index.tex) |  | ✔️ |
 | B6.6 | "...ein alphabetisch sortiertes Glossar mit korrekten Erläuterungen der verwendeten Fachbegriffe und Abkürzungen, welche einer aussenstehenden Fachperson unbekannt sein dürften." | [`src/glossaries.tex`](src/glossaries.tex) | Das Glossar wird automatisch mit den benutzten Einträgen alphabetisch erstellt. Ein Glossareintrag kann mit `\gls{Eintragsname}` benutzt werden. | ✔️ |
+
+#### <span id="b7">B7</span>: Sprachlicher Ausdruck und Stil / Rechtschreibung und Grammatik
+
+| ID    | Anforderung | Referenz | Bemerkungen | Status |
+| ----- | ----------- | -------- | ----------- | ------ |
+| B7.1 | "Die Sprache ist durchgehend klar verständlich (Satzbau, Wortstellungen), in einem flüssigen Stil sowie in vollständigen und ausformulierten Sätzen geschrieben." | | | 🧑‍🎓 |
+| B7.2 | "Fachbegriffe werden korrekt und adressatengerecht eingesetzt." | | | 🧑‍🎓 |
+| B7.3 | "Der IPA-Bericht enthält nur wenige Rechtschreib- oder Grammatikfehler." | | | 🧑‍🎓 |
 
 ## Referenzen
 
