@@ -187,10 +187,10 @@ Diese [Vorlage](https://docs.google.com/spreadsheets/d/1kZ3AUNItc1EV2Pz2bjDTaP_T
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| B1.1 | "Die Kurzfassung richtet sich an die fachlich kompetenten Leser." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | 🧑‍🎓 |
-| B1.2 | "Die Kurzfassung enthält die Punkte: Kurze Ausgangssituation - Umsetzung - Ergebnis." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | ⏳ |
-| B1.3 | "Die Kurzfassung enthält zu jedem dieser genannten Punkte die wesentlichen Aspekte." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | 🧑‍🎓 |
-| B1.4 | "Die Kurzfassung ist nicht länger als eine A4-Seite Text und enthält keine Grafik." | [`src/chapters/plan.tex`](src/chapters/plan.tex) |  | 🧑‍🎓 |
+| B1.1 | "Die Kurzfassung richtet sich an die fachlich kompetenten Leser." | [`src/chapters/summary.tex`](src/chapters/summary.tex) |  | 🧑‍🎓 |
+| B1.2 | "Die Kurzfassung enthält die Punkte: Kurze Ausgangssituation - Umsetzung - Ergebnis." | [`src/chapters/summary.tex`](src/chapters/summary.tex) |  | ✔️ |
+| B1.3 | "Die Kurzfassung enthält zu jedem dieser genannten Punkte die wesentlichen Aspekte." | [`src/chapters/summary.tex`](src/chapters/summary.tex) |  | 🧑‍🎓 |
+| B1.4 | "Die Kurzfassung ist nicht länger als eine A4-Seite Text und enthält keine Grafik." | [`src/chapters/summary.tex`](src/chapters/summary.tex) |  | 🧑‍🎓 |
 
 #### <span id="b2">B2</span>: Führung des Arbeitsjournals
 
