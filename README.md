@@ -27,9 +27,7 @@ Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen prak
 1. Variablen in `src/index.tex` anpassen
 1. Commits mit den gemachten Änderungen erstellen
 1. Commits ins Repository drücken (push)
-1. Github Actions läuft automatisch und generiert ein Artefakt, welches das aktuelle Dokument enthält. Das Video unterhalb zeigt dies.
-
-![Artefakte finden](res/find-artifacts.webm)
+1. Github Actions läuft automatisch und generiert ein Artefakt, welches das aktuelle Dokument enthält. Dieses [Video](res/find-artifacts.webm) zeigt das Vorgehen.
 
 ## Kriteriennachweis
 
