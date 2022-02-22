@@ -25,6 +25,9 @@
 \cfoot[\varAuthor\ / \varCompany\\Version \varVersion]{\varAuthor\ / \varCompany\\Version 1}
 \rofoot[Seite \pagemark{} von \pageref{LastPage}]
 
+% load sources
+\addbibresource{sources.bib}
+
 % make glossaries
 \makenoidxglossaries
 
@@ -96,6 +99,12 @@
 
   % generate figures table
   \listoffigures
+
+  % create a phantom toc entry for the literature table
+  \clearpage\phantomsection\addcontentsline{toc}{part}{Literaturverzeichnis}
+
+  % generate bibliography
+  \printbibliography[title=Literaturverzeichnis]
 
   % defines the beginning of the appendix
   \appendix
