@@ -18,12 +18,18 @@ Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen prak
 
 ## Loslegen
 
+1. Eigenes Repository von der Vorlage generieren mit `Use this template`
 1. Repository klonen
 1. Ordner in Visual Studio Code mit installierter Erweiterung [Remote Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) öffnen
 1. `src/index.tex` öffnen und <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>b</kbd> oder über <kbd>CTRL</kbd>+<kbd>P</kbd> das Kommando `LaTeX Workshop: Build LaTeX project` aufrufen
 1. `build/default/default.pdf` öffnen
 1. Dokument ändern, die Vorschau des PDFs aktualisiert sich fortlaufend
 1. Variablen in `src/index.tex` anpassen
+1. Commits mit den gemachten Änderungen erstellen
+1. Commits ins Repository drücken (push)
+1. Github Actions läuft automatisch und generiert ein Artefakt, welches das aktuelle Dokument enthält. Das Video unterhalb zeigt dies.
+
+![Artefakte finden](res/find-artifacts.webm)
 
 ## Kriteriennachweis
 
