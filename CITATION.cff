@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use ipa-template in your research, please cite it using these metadata."
+abstract: Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen praktischen Abschlussprüfung (IPA) ab. Dabei sind umfangreiche Dokumentationsarbeiten notwendig. Diese Vorlage hilft dabei sich auf die Inhalte und Realisierung konzentrieren zu können und keine Inhalte zu vergessen. Mit dieser Vorlage ist es möglich, innert Minuten mit der produktiven Arbeit am IPA-Bericht zu beginnen.
+authors:
+  - family-names: Bühler
+    given-names: Robin
+    orcid: https://orcid.org/0000-0002-4534-7660
+title: ipa-template
+version: 1.0.0
+date-released: "2022-02-22"
+keywords:
+  - IPA Vorlage
+  - Individuelle praktische Abschlussprüfungsvorlage
+  - LaTeX
+  - Tectonic
+  - Visual Studio Code
+  - Devcontainers
+  - Prüfungskomission 19
+license: "AGPL-3.0"
+repository-code: "https://github.com/ictorg/ipa-template"
