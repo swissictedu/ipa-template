@@ -1,5 +1,7 @@
 # IPA Vorlage
 
+> :warning: **Disclaimer**: Die Richtigkeit dieser Vorlage wird hiermit in Abrede gestellt. Der oder die Autoren übernehmen keine Gewährleistung. Diese Vorlage ist **keine** offizielle Vorlage einer Prüfungsorganisation.
+
 Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen praktischen Abschlussprüfung (IPA) ab. Dabei sind umfangreiche Dokumentationsarbeiten notwendig. Diese Vorlage hilft dabei sich auf die Inhalte und Realisierung konzentrieren zu können und keine Inhalte zu vergessen. Mit dieser Vorlage ist es möglich, innert Minuten mit der produktiven Arbeit am IPA-Bericht zu beginnen.
 
  - [Zeitplanvorlage mit Google Sheets](https://docs.google.com/spreadsheets/d/1kZ3AUNItc1EV2Pz2bjDTaP_TFSRrj1S5dGMjM3ucCRw)
