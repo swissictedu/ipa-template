@@ -20,7 +20,7 @@ jobs:
       - uses: wtfjoke/setup-tectonic@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          biber-version: "latest"
+          biber-version: "2.16"
       - name: Run Tectonic and Biber
         run: tectonic -X build
       - name: Upload pdf
