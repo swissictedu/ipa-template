@@ -25,6 +25,8 @@
 \usepackage{caption} % implements signatures for images
 \usepackage{float} % additional floats
 \usepackage{pdflscape} % put pages in landscape mode
+\usepackage{mdframed} % splitable frames
+\usepackage{minted} % code listings
 
 % configure document
 \KOMAoptions{paper=A4, parskip=half, twoside=false, fontsize=11pt, numbers=noenddot}
@@ -89,4 +91,19 @@
   bookmarksnumbered=true
 }
 
+% macros
 \newcommand{\placeholder}{{\color{WarnColor}\textbf{Platzhalter}}}
+
+\newmdenv[
+  frametitlebackgroundcolor=LightGrey,
+  frametitlerule=true,
+  backgroundcolor=LighterGrey,
+  linecolor=LineLightGrey
+]{codebox}
+
+\setminted{
+  breaklines=true,
+  style=colorful,
+  numbersep=20pt,
+  linenos=true
+}
