@@ -202,7 +202,7 @@ Diese [Vorlage](https://docs.google.com/spreadsheets/d/1kZ3AUNItc1EV2Pz2bjDTaP_T
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| B2.1 | "Die Darstellung ist übersichtlich, klar und verständlich." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | ⏳ |
+| B2.1 | "Die Darstellung ist übersichtlich, klar und verständlich." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | ✔️ |
 | B2.2 | "Alle Aktivitäten gemäss Zeitplan sowie Überzeiten und ungeplante Arbeiten sind erwähnt." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
 | B2.3 | "Erfolge und Misserfolge sind erwähnt." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
 | B2.4 | "Alle beanspruchten Hilfestellungen sind erwähnt und begründet." | [`src/chapters/journal.tex`](src/chapters/journal.tex) |  | 🧑‍🎓 |
@@ -239,7 +239,7 @@ Diese [Vorlage](https://docs.google.com/spreadsheets/d/1kZ3AUNItc1EV2Pz2bjDTaP_T
 | B6.1b | "Ein allfälliger Quellcode ist im Anhang vorhanden" | [`src/appendix/source.tex`](src/appendix/source.tex) | | ✔️ |
 | B6.2a | "Teil 1 enthält: Projektaufbauorganisation" | [`src/chapters/organisation.tex`](src/chapters/organisation.tex) | | ✔️ |
 | B6.2b | "Teil 1 enthält: [..] Zeitplan" | [`src/chapters/timeplan.tex`](src/chapters/timeplan.tex) | | ✔️ |
-| B6.2c | "Teil 1 enthält: [..] Arbeitsjournal" | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ⏳ |
+| B6.2c | "Teil 1 enthält: [..] Arbeitsjournal" | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ✔️ |
 | B6.3 | "Der IPA-Bericht enthält ein aktuelles Inhaltsverzeichnis" | [`src/index.tex`](src/index.tex) | Das Inhaltsverzeichnis wird beim Erstellen des Dokuments generiert. | ✔️ |
 | B6.4a | "..zu sämtlichen Quellen besteht ein schriftlicher Nachweis" | [`src/index.tex`](src/index.tex) | | ✔️ |
 | B6.4b | "die referenzierten Quellen sind gültig und verlässlich;" | [`src/sources.bib`](src/sources.bib) | Mit `\cite` und dem in `src/sources.bib` definierten Key kann eine Zitierung eingefügt werden. Das Literaturverzeichnis wird entsprechend automatisch generiert. | 🧑‍🎓 |
