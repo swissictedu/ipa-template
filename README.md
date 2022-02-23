@@ -242,7 +242,7 @@ Diese [Vorlage](https://docs.google.com/spreadsheets/d/1kZ3AUNItc1EV2Pz2bjDTaP_T
 | B6.2c | "Teil 1 enthält: [..] Arbeitsjournal" | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ✔️ |
 | B6.3 | "Der IPA-Bericht enthält ein aktuelles Inhaltsverzeichnis" | [`src/index.tex`](src/index.tex) | Das Inhaltsverzeichnis wird beim Erstellen des Dokuments generiert. | ✔️ |
 | B6.4a | "..zu sämtlichen Quellen besteht ein schriftlicher Nachweis" | [`src/index.tex`](src/index.tex) | | ✔️ |
-| B6.4b | "die referenzierten Quellen sind gültig und verlässlich;" | [`src/sources.bib`](src/sources.bib) | Mit `\cite` und dem in `src/sources.bib` definierten Key kann eine Zitierung eingefügt werden. Das Literaturverzeichnis wird entsprechend automatisch generiert. | 🧑‍🎓 |
+| B6.4b | "die referenzierten Quellen sind gültig und verlässlich;" | [`src/sources.bib`](src/sources.bib) | Mit `\cite` und dem in `src/sources.bib` definierten Key kann eine Zitierung eingefügt werden. Das Literaturverzeichnis wird entsprechend nach IEEE automatisch generiert. | 🧑‍🎓 |
 | B6.5 | "..auf allen Seiten (optional Titelblatt) eine Kopf- oder Fusszeile mit dem aktuellen Druckdatum und dem Namen des Kandidaten;" | [`src/index.tex`](src/index.tex) |  | ✔️ |
 | B6.6 | "...ein alphabetisch sortiertes Glossar mit korrekten Erläuterungen der verwendeten Fachbegriffe und Abkürzungen, welche einer aussenstehenden Fachperson unbekannt sein dürften." | [`src/glossaries.tex`](src/glossaries.tex) | Das Glossar wird automatisch mit den benutzten Einträgen alphabetisch erstellt. Ein Glossareintrag kann mit `\gls{Eintragsname}` benutzt werden. | ✔️ |
 
