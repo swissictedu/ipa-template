@@ -62,7 +62,7 @@ Der Status wird durch folgende Symbole definiert:
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| A1.1a | "Die gewählte Projektmanagement-Methode ist im Bericht benannt" | [`src/chapters/inform.tex`](src/chapters/inform.tex) | | ⏳ |
+| A1.1a | "Die gewählte Projektmanagement-Methode ist im Bericht benannt" | [`src/chapters/inform.tex`](src/chapters/inform.tex) | | ✔️ |
 | A1.1b | "[..] und passt zum Auftrag." | [`src/chapters/inform.tex`](src/chapters/inform.tex) | In den allermeisten Fällen lässt sich IPERKA anwenden und begründen. | 🧑‍🎓 |
 | A1.2 | "Die gewählte Projektmanagement-Methode wurde in der praktischen Arbeit korrekt angewandt." | | Dies lässt sich oftmals gut im Zeitplan erkennen, indem geprüft wird, ob die Aufgaben den passenden Phasen zugeordnet sind. | 🧑‍🎓 |
 | A1.3 | "Die korrekte Anwendung der Projektmanagement-Methode ist im IPA-Bericht ersichtlich." | [`src/index.tex`](src/index.tex) | Dies lässt sich gut am Inhaltsverzeichnis ablesen. | ✔️ |
@@ -72,10 +72,10 @@ Der Status wird durch folgende Symbole definiert:
 
 | ID    | Anforderung | Referenz | Bemerkungen | Status |
 | ----- | ----------- | -------- | ----------- | ------ |
-| A2.1 | "Der Nachweis der Wissensbeschaffung ist durch Arbeitsjournal, Projektbericht oder Protokolle zu Fachgesprächen (HE, VF) dokumentiert." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ⏳ |
+| A2.1 | "Der Nachweis der Wissensbeschaffung ist durch Arbeitsjournal, Projektbericht oder Protokolle zu Fachgesprächen (HE, VF) dokumentiert." | [`src/chapters/journal.tex`](src/chapters/journal.tex) | | ✔️ |
 | A2.2 | "Wählte die Informationsquellen aufgabenbezogen aus." | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
-| A2.3 | "Hat aus den gewählten Informationsquellen die relevanten Informationen identifiziert und genutzt (Transferleistung)." | | | ⏳ |
-| A2.4 | "Die referenzierten Quellen sind existent und für Projektinvolvierte rekonstruierbar." | [`src/sources.bib`](src/sources.bib) | | 🧑‍🎓 |
+| A2.3 | "Hat aus den gewählten Informationsquellen die relevanten Informationen identifiziert und genutzt (Transferleistung)." | Mit `\cite` und dem in `src/sources.bib` definierten Key kann eine Zitierung eingefügt werden. Das Literaturverzeichnis wird entsprechend nach IEEE automatisch generiert. | | ✔️ |
+| A2.4 | "Die referenzierten Quellen sind existent und für Projektinvolvierte rekonstruierbar." | [`src/sources.bib`](src/sources.bib) | Mit `\cite` und dem in `src/sources.bib` definierten Key kann eine Zitierung eingefügt werden. Das Literaturverzeichnis wird entsprechend nach IEEE automatisch generiert. | 🧑‍🎓 |
 
 #### <span id="a3">A3</span>: Zeitplan
 
