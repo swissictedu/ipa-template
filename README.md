@@ -29,6 +29,13 @@ Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen prak
 1. Commits ins Repository drücken (push)
 1. Github Actions läuft automatisch und generiert ein Artefakt, welches das aktuelle Dokument enthält. Dieses [Video](res/find-artifacts.webm) zeigt das Vorgehen.
 
+## Werkzeuge
+
+Für die Realisierung der IPA könnten folgende Werkzeuge und Programme nützlich sein:
+
+- [diagrams.net](https://diagrams.net) für Diagramme aller Art: UML, ...
+- [umletino.com](https://www.umletino.com/) oder [umlet.com](https://www.umlet.com/) für UML Diagramme
+
 ## Kriteriennachweis
 
 Dieser Abschnitt bezieht sich auf den [Standardkritierenkatalog](https://pk19.ch/wp-content/uploads/2021/11/Kriterienkatalog-Standardkriterien_2022.pdf) und dessen [Leitfaden](https://pk19.ch/wp-content/uploads/2021/11/QV-Leitfaden_2022.pdf). Unterhalb wird ein Bezug zwischen den Kriterien und dieser Vorlage hergestellt.
