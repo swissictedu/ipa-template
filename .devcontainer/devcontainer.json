@@ -17,7 +17,8 @@
     "james-yu.latex-workshop",
     "valentjn.vscode-ltex",
     "be5invis.toml",
-    "yzhang.markdown-all-in-one"
+    "yzhang.markdown-all-in-one",
+    "theumletteam.umlet"
   ],
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.

@@ -35,6 +35,7 @@ Für die Realisierung der IPA könnten folgende Werkzeuge und Programme nützlic
 
 - [diagrams.net](https://diagrams.net) für Diagramme aller Art: UML, ...
 - [umletino.com](https://www.umletino.com/) oder [umlet.com](https://www.umlet.com/) für UML Diagramme
+- [UMLet Visual Studio Code Extension](https://marketplace.visualstudio.com/items?itemName=TheUMLetTeam.umlet)
 
 ## Kriteriennachweis
 

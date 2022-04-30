@@ -3,6 +3,21 @@
 
 Die Zeitplanung wird in der Abbildung \ref{fig:timeplan} oberhalb gezeigt. Die restlichen Aspekte der Planung sind in diesem Kapitel dokumentiert.
 
+\begin{figure}[H]
+  \begin{center}
+    \begin{tikzpicture}
+      \begin{umlsystem}[x=0, y=0]{PkOrg}
+      \end{umlsystem}
+      \umlactor[x=-5, y=.1]{Verantwortliche Fachperson}
+      \umlactor[x=5, y=.1]{Hauptexperte}
+      \umlassoc{Verantwortliche Fachperson}{PkOrg}
+      \umlassoc{Hauptexperte}{PkOrg}
+    \end{tikzpicture}
+  \end{center}
+  \caption[\enquote{Systemkontextdiagramm} erstellt mit Tikz UML]{Systemkontextdiagramm}
+  \label{fig:systemcontext}
+\end{figure}
+
 \section{Anwendungsfälle}
 
 \section{Testkonzept}
