@@ -9,22 +9,22 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-      - uses: actions/cache@v2
+        uses: actions/checkout@v3
+      - uses: actions/cache@v3
         name: Setup Tectonic cache
         with:
           path: ~/.cache/Tectonic
           key: ${{ runner.os }}-tectonic-${{ hashFiles('**/*.tex') }}
           restore-keys: |
            ${{ runner.os }}-tectonic-
-      - uses: wtfjoke/setup-tectonic@v1
+      - uses: wtfjoke/setup-tectonic@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          biber-version: "2.16"
+          biber-version: "2.17"
       - name: Run Tectonic and Biber
         run: tectonic -X build
       - name: Upload pdf
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: Document
           path: build/default/default.pdf
