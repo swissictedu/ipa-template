@@ -1,6 +1,6 @@
 [doc]
 name = 'ipa-template'
-bundle = 'https://data1.fullyjustified.net/tlextras-2021.3r1.tar'
+bundle = 'https://data1.fullyjustified.net/tlextras-2022.0r0.tar'
 
 [[output]]
 name = 'default'
