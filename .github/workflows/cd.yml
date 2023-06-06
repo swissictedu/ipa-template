@@ -10,13 +10,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Setup OptiPNG
+        run: sudo apt-get install -y optipng
+      - name: Minify PNG images
+        run: find . -type f -name '*.png' -exec echo "Compressing" {} \; -exec optipng -o2 {} \;
       - uses: actions/cache@v3
         name: Setup Tectonic cache
         with:
           path: ~/.cache/Tectonic
           key: ${{ runner.os }}-tectonic-${{ hashFiles('**/*.tex') }}
           restore-keys: |
-           ${{ runner.os }}-tectonic-
+            ${{ runner.os }}-tectonic-
       - uses: wtfjoke/setup-tectonic@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,3 +32,5 @@ jobs:
         with:
           name: Document
           path: build/default/default.pdf
+``
+
