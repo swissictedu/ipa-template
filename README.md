@@ -31,6 +31,9 @@ Informatiklernende (EFZ) schliessen Ihre Ausbildung mit einer individuellen prak
 
 [Video zu Github Actions](https://user-images.githubusercontent.com/1105080/217743574-3568e8e8-8c52-4c41-a64a-f60f2adc5172.webm)
 
+### Falls die Bilder "blank" sind
+Es kann sein, dass die Bilder im PDF (nach dem Download) "blank" sind. Das kann eventuell an der Dateigrösse der Bilder liegen. Falls das der Fall ist, kann man in der cd unter `.github/workflows/cd.yml` die `COMPRESSION_LEVEL` Variable anpassen. Die Levels gehen von 0 bis 7. Das kann eventuell das Problem beheben.
+
 ## Werkzeuge
 
 Für die Realisierung der IPA könnten folgende Werkzeuge und Programme nützlich sein:

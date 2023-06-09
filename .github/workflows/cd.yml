@@ -3,6 +3,9 @@ name: 'Continuous delivery'
 on: 
   push:
 
+env:
+  COMPRESSION_LEVEL: 0
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +13,20 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+      - name: Setup OptiPNG
+        run: sudo apt-get install -y optipng
+      - name: Minify PNG images
+        run: |
+          if [ ${{ env.COMPRESSION_LEVEL }} -gt 0 ]; then
+            find . -type f -name '*.png' -exec echo "Compressing" {} \; -exec optipng -o${{ env.COMPRESSION_LEVEL }} {} \;
+          fi
       - uses: actions/cache@v3
         name: Setup Tectonic cache
         with:
           path: ~/.cache/Tectonic
           key: ${{ runner.os }}-tectonic-${{ hashFiles('**/*.tex') }}
           restore-keys: |
-           ${{ runner.os }}-tectonic-
+            ${{ runner.os }}-tectonic-
       - uses: wtfjoke/setup-tectonic@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
@@ -28,3 +38,4 @@ jobs:
         with:
           name: Document
           path: build/default/default.pdf
+
