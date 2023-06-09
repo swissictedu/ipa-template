@@ -3,6 +3,9 @@ name: 'Continuous delivery'
 on: 
   push:
 
+env:
+  COMPRESSION_LEVEL: 0
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,7 +16,10 @@ jobs:
       - name: Setup OptiPNG
         run: sudo apt-get install -y optipng
       - name: Minify PNG images
-        run: find . -type f -name '*.png' -exec echo "Compressing" {} \; -exec optipng -o2 {} \;
+        run: |
+          if [ ${{ env.COMPRESSION_LEVEL }} -gt 0 ]; then
+            find . -type f -name '*.png' -exec echo "Compressing" {} \; -exec optipng -o${{ env.COMPRESSION_LEVEL }} {} \;
+          fi
       - uses: actions/cache@v3
         name: Setup Tectonic cache
         with:
